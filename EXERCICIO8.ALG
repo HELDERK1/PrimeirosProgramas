@@ -5,18 +5,18 @@ Algoritmo "Exercicio8"
 // Autor(a)    : Helder Kennedy Campos
 // Data atual  : 01/02/2023
 Var
-   base1, base2, altura, areaTrap: real
+   angulo, seno, cosseno, tangente: real
 
 
 
 Inicio
-   escreva("Informe o valor da base maior do trapézio: ")
-   leia(base1)
-   escreva("Informe o valor da base menor do trapézio: ")
-   leia(base2)
-   escreva("Informe o valor da altura do trapézio: ")
-   leia(altura)
-   areaTrap <- ((base1 + base2)*altura)/2
-   escreva("")
-   escreva("A área do trapézio é: ", areaTrap)
+   escreva("Informe o valor do angulo em graus: ")
+   leia(angulo)
+   seno <- int(sen(GraupRad(angulo)))
+   cosseno <- int(cos(GraupRad(angulo)))
+   tangente <- int(tan(GraupRad(angulo)))
+
+   escreval("O seno do angulo ", angulo, " graus é ", seno, " radianos")
+   escreval("O cosseno do angulo ", angulo, " graus é ", cosseno, " radianos")
+   escreval("O tangente do angulo ", angulo, " graus é ", tangente, " radianos")
 Fimalgoritmo
