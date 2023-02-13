@@ -82,8 +82,8 @@ procedimento EscreveCabecalho
 var
 inicio
    escreval("Jogo da velho - Desafio Venturos")
-   escreval("vencedor Player 1 joga com X")
-   escreval("vencedor Player 2 joga com O")
+   escreval("Player 1 joga com X")
+   escreval("Player 2 joga com O")
    escreval("")
 fimprocedimento
 
